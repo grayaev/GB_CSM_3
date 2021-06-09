@@ -7,10 +7,7 @@
 - name: fpm
   hosts: localhost
   roles:
-    - role: ruby
-    - role: ruby-dev
-    - role: rubygems
-    - role: fpm.build-essential
+    - role: fpm
 
 - name: nginx
   hosts: localhost
