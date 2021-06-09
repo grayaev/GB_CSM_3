@@ -1,0 +1,10 @@
+---
+- name: Install fpm
+  become: yes
+  apt:
+    name:
+      - ruby
+      - ruby-dev
+      - rubygems
+      - build-essential
+    state=latest

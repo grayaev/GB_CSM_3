@@ -1,0 +1,15 @@
+---
+- name: mysql
+  hosts: localhost
+  roles:
+    - role: mysql
+
+- name: fpm
+  hosts: localhost
+  roles:
+    - role: fpm
+
+- name: nginx
+  hosts: localhost
+  roles:
+    - role: nginx
