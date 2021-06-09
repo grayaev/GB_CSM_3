@@ -1,6 +1,0 @@
----
-- name: Install ruby-dev
-  become: yes
-  apt:
-    name:ruby-dev
-    state=latest

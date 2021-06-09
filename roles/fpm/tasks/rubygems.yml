@@ -1,6 +1,0 @@
----
-- name: Install rubygems
-  become: yes
-  apt:
-    name:rubygems
-    state=latest
