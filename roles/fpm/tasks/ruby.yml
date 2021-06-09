@@ -1,0 +1,6 @@
+---
+- name: Install ruby
+  become: yes
+  apt:
+    name:ruby
+    state=latest
