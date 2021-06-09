@@ -2,23 +2,23 @@
 - name: Install ruby
   become: yes
   apt:
-    name:ruby
+    name=ruby
     state=latest
 
 - name: Install ruby-dev
   become: yes
   apt:
-    name:ruby-dev
+    name=ruby-dev
     state=latest
 
 - name: Install rubygems
   become: yes
   apt:
-    name:rubygems
+    name=rubygems
     state=latest
 
 - name: Install build-essential
   become: yes
   apt:
-    name:build-essential
+    name=build-essential
     state=latest
